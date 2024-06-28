@@ -39,6 +39,7 @@ npm start
 Open http://localhost:3000 to view the application in your browser.
 
 **Project Structure**
+
 src/BitcoinService.js: Contains functions for making API requests to QuickNode's RPC API.
 src/BlockInfo.js: Component to fetch and display block information.
 src/TransactionInfo.js: Component to fetch and display transaction details.
@@ -46,15 +47,19 @@ src/AccountInfo.js: Component to fetch and display account information.
 src/styles.css: CSS styles for the application.
 
 **Access the Complete Code and Live Demo**
+
 GitHub Repository: https://github.com/Dev-suite/bitcoin-blockchain-explorer
-Live Demo: https://your-live-demo-link.com
+Live Demo: https://bitcoin-blockchain-explorer.web.app
 
 **Contributing**
+
 Contributions are welcome! Please open an issue or submit a pull request for any enhancements or bug fixes.
 
 **License**
+
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 **Acknowledgements**
+
 QuickNode for providing the RPC API services.
 React for the powerful UI library.
