@@ -19,13 +19,12 @@ Follow these steps to set up and run the project locally:
 
 ### 1. Clone the Repository
 
-```bash
+```bash```
 git clone https://github.com/Dev-suite/bitcoin-blockchain-explorer.git
 cd bitcoin-blockchain-explorer
 
-2. Install Dependencies
-bash
-Copy code
+**2. Install Dependencies**
+
 npm install
 3. Set Up Environment Variables
 Create a .env file in the root directory and add your QuickNode API endpoint:
@@ -34,26 +33,28 @@ Create a .env file in the root directory and add your QuickNode API endpoint:
 REACT_APP_QUICKNODE_API_URL=https://[your-node-name].[network].quiknode.pro
 Replace [your-node-name] and [network] with your actual QuickNode API endpoint details.
 
-4. Run the Application
+**4. Run the Application**
 
 npm start
 Open http://localhost:3000 to view the application in your browser.
 
-Project Structure
+**Project Structure**
 src/BitcoinService.js: Contains functions for making API requests to QuickNode's RPC API.
 src/BlockInfo.js: Component to fetch and display block information.
 src/TransactionInfo.js: Component to fetch and display transaction details.
 src/AccountInfo.js: Component to fetch and display account information.
 src/styles.css: CSS styles for the application.
-Access the Complete Code and Live Demo
+
+**Access the Complete Code and Live Demo**
 GitHub Repository: https://github.com/Dev-suite/bitcoin-blockchain-explorer
 Live Demo: https://your-live-demo-link.com
-Contributing
+
+**Contributing**
 Contributions are welcome! Please open an issue or submit a pull request for any enhancements or bug fixes.
 
-License
+**License**
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Acknowledgements
+**Acknowledgements**
 QuickNode for providing the RPC API services.
 React for the powerful UI library.
